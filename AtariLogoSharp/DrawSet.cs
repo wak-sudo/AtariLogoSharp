@@ -144,8 +144,6 @@ namespace AtariLogoSharp
                 {
                     PointF destinationPoint = CalculateNewPoint(steps, currentTurtle.Angle, currentTurtle.CurrentPoint);
 
-                    // TODO: Implement better handling of corners. jslogo has the same problem.
-
                     // Contact point is a point at which the turtle reaches a wall.
 
                     if (destinationPoint.Y < bounds.Top)

@@ -28,16 +28,16 @@ namespace AtariLogoSharp
         {
             for (int i = 0; i < commands.Count; i++)
             {
-                if (commands[i][0] == '[' && commands[i].Length != 1)
+                if (commands[i][0] == openingBracketCharacter[0] && commands[i].Length != 1)
                 {
                     commands[i] = commands[i].Substring(1);
-                    commands.Insert(i, "[");
+                    commands.Insert(i, openingBracketCharacter);
                     i++;
                 }
-                if (commands[i][commands[i].Length - 1] == ']' && commands[i].Length != 1)
+                if (commands[i][commands[i].Length - 1] == closingBracketCharacter[0] && commands[i].Length != 1)
                 {
                     commands[i] = commands[i].Remove(commands[i].Length - 1);
-                    commands.Insert(i + 1, "]");
+                    commands.Insert(i + 1, closingBracketCharacter);
                     i++;
                 }
             }

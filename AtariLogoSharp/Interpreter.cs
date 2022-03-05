@@ -62,12 +62,12 @@ namespace AtariLogoSharp
         /// <summary>
         /// This character correspond to the opening bracket character.
         /// </summary>
-        private const string openingBracketCharacter = "[";
+        private static string openingBracketCharacter = "[";
 
         /// <summary>
         /// This character correspond to the closing bracket character.
         /// </summary>
-        private const string closingBracketCharacter = "]";
+        private static string closingBracketCharacter = "]";
 
         /// <summary>
         /// Indicates whether a POTS command was successfully entered in the last interpretation.
