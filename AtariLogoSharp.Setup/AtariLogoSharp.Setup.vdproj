@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_AA7E9D4CA3EA4C8F9681BA2C957AC061"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CF273FA59721464FB52ED574FE1DBE64"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F6B845DD59F1FD53C8D5413539F6060A"
+        "OwnerKey" = "8:_CF273FA59721464FB52ED574FE1DBE64"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CF273FA59721464FB52ED574FE1DBE64"
+        "OwnerKey" = "8:_F6B845DD59F1FD53C8D5413539F6060A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,13 +61,29 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\AtariLogoSharp.Setup.msi"
+        "OutputFilename" = "8:Release\\AtariLogoSharp.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -75,7 +97,7 @@
             {
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
+            "PrerequisitesLocation" = "2:2"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
                 "Items"
@@ -108,7 +130,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
                 }
@@ -116,6 +138,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AA7E9D4CA3EA4C8F9681BA2C957AC061"
+            {
+            "SourcePath" = "8:..\\AtariLogoSharp\\Resources\\AtariLogoSharp.ico"
+            "TargetName" = "8:AtariLogoSharp.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_2B5A051F84F44A438711794D9A183E33"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F6B845DD59F1FD53C8D5413539F6060A"
             {
             "AssemblyRegister" = "3:1"
@@ -213,9 +255,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:AtariLogoSharp.Setup"
+        "ProductName" = "8:Atari Logo Sharp"
         "ProductCode" = "8:{72478B07-72A7-41BF-B371-AEB3E41D3CBC}"
-        "PackageCode" = "8:{85C56D3A-C24C-4948-9FBC-0DF462C3C0D6}"
+        "PackageCode" = "8:{244FD2CE-DE5B-493D-8373-92B63BB465E5}"
         "UpgradeCode" = "8:{2B0FEB87-1465-4A25-B0EC-0A67FD8FAF54}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -226,7 +268,7 @@
         "Manufacturer" = "8:404Team"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:AtariLogoSharp.Setup"
+        "Title" = "8:Atari Logo Sharp Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:404Team"
         "Keywords" = "8:"
@@ -346,7 +388,7 @@
             "Target" = "8:_CF273FA59721464FB52ED574FE1DBE64"
             "Folder" = "8:_2111B24BEDAD47B686CF610240433820"
             "WorkingFolder" = "8:_2B5A051F84F44A438711794D9A183E33"
-            "Icon" = "8:"
+            "Icon" = "8:_AA7E9D4CA3EA4C8F9681BA2C957AC061"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CA7A52398CDB4D52884B77C310ACEA4B"
@@ -360,7 +402,7 @@
             "Target" = "8:_CF273FA59721464FB52ED574FE1DBE64"
             "Folder" = "8:_5A84FAB9EC9B4BDB85CCE3EEC9621700"
             "WorkingFolder" = "8:_2B5A051F84F44A438711794D9A183E33"
-            "Icon" = "8:"
+            "Icon" = "8:_AA7E9D4CA3EA4C8F9681BA2C957AC061"
             "Feature" = "8:"
             }
         }
@@ -764,7 +806,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CF273FA59721464FB52ED574FE1DBE64"
             {
-            "SourcePath" = "8:..\\AtariLogoSharp\\obj\\Debug\\AtariLogoSharp.exe"
+            "SourcePath" = "8:..\\AtariLogoSharp\\obj\\Release\\AtariLogoSharp.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2B5A051F84F44A438711794D9A183E33"
