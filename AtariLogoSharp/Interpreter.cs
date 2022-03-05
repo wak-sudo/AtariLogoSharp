@@ -601,7 +601,7 @@ namespace AtariLogoSharp
                                     }
                                 }
                             }
-                            catch(Exception e)
+                            catch
                             {
                                 CodePointer++; // In this special case, we want to show the unsuccessful file path,
                                                // so we have to increment the code pointer to stay at the right index.
