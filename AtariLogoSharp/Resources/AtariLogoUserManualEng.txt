@@ -1,5 +1,8 @@
 == User Manual ==
 
+If you want to hide your input box, click on the draw screen.
+If you want to restore the input box, press Escape.
+
 === Basic commands ===
 
 CS - remove drawings / clean up the board.
@@ -98,9 +101,11 @@ SAVE filePath - to save your procedures to a selected file.
 LOAD filePath - to load your procedures from a selected file.
 
 e.g.:
-SAVE C:\procedures.logo
-LOAD C:\procedures.logo
+SAVE procedures.logo
+LOAD procedures.logo
 
-	REMARKS:
-The file path cannot contain spaces
-(same as in the original Atari Logo implementation). 
+	REMEMBER:
+1. The file path cannot contain spaces
+(same as in the original Atari Logo implementation).
+2. You are able to save directly to protected folders (e.g. C: drive root) only 
+if the application is run with administrative privileges.
