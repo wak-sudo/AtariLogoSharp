@@ -51,6 +51,7 @@ namespace AtariLogoSharp
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.listView);
             this.Name = "ProceduresScreen";
+            this.ShowIcon = false;
             this.Text = "Procedures";
             this.ResumeLayout(false);
 

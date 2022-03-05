@@ -62,6 +62,7 @@ namespace AtariLogoSharp
             this.ClientSize = new System.Drawing.Size(268, 262);
             this.Controls.Add(this.panelHelp);
             this.Name = "HelpScreen";
+            this.ShowIcon = false;
             this.Text = "Help";
             this.panelHelp.ResumeLayout(false);
             this.ResumeLayout(false);

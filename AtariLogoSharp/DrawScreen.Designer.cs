@@ -49,6 +49,7 @@ namespace AtariLogoSharp
             this.ClientSize = new System.Drawing.Size(288, 222);
             this.Controls.Add(this.picDrawArea);
             this.Name = "DrawScreen";
+            this.ShowIcon = false;
             this.Text = "Draw Screen";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DrawScreen_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DrawScreen_FormClosed);

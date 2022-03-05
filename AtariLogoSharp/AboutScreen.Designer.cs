@@ -61,6 +61,7 @@ namespace AtariLogoSharp
             this.ClientSize = new System.Drawing.Size(370, 272);
             this.Controls.Add(this.panel);
             this.Name = "AboutScreen";
+            this.ShowIcon = false;
             this.Text = "About";
             this.panel.ResumeLayout(false);
             this.ResumeLayout(false);

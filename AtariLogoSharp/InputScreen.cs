@@ -24,6 +24,8 @@ namespace AtariLogoSharp
         {
             InitializeComponent();
 
+            this.Icon = Properties.Resources.AtariLogoSharp;
+
             // Set window position:
             this.TopMost = true;
             this.StartPosition = FormStartPosition.Manual;
