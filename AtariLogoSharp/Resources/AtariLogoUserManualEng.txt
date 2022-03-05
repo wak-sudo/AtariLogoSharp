@@ -1,0 +1,106 @@
+== User Manual ==
+
+=== Basic commands ===
+
+CS - remove drawings / clean up the board.
+HT - hide the turtle icon.
+ST - show the turtle icon.
+RT angle - turn the turtle by the specified angle (in degrees) to the right.
+LT angle - turn the turtle by the specified angle (in degrees) to the left.
+FD steps - move the turtle forward by the given number of steps.
+PU - the moving turtle does not leave a trace.
+PD - the moving turtle leaves a trace
+BK steps - move the turtle backwards by the given number of steps.
+
+REPEAT x [abc] - repeat the instruction abc in square brackets x times
+e.g. REPEAT 4 [FD 50 LT 90] draws a square.
+
+=== Turtles commands ===
+
+TELL turtleID - or to select multiple - TELL [ turtleID1 turtleID2, ...]
+- a new turtle appears (the first one has index 0), 
+all commands appearing after the TELL command apply to the called turtle until the next TELL call.
+e.g. TELL [ 0 1 ]
+
+ASK [ turtleID ... ] [ code ]
+- executes specific orders for specific turtles.
+e.g. ASK [ 0 1 ] [ FD 100 ]
+
+EACH [ code ] - executes specific orders for all turtles created (even for the inactive).
+
+==== Color commands ====
+
+Evey turtle has 3 pens avaiable (numbered from 0 to 2).
+There are 128 colors available from the Atari pallet (numbered from 0 to 127).
+
+SETC colorID - change the color of the current turtle to the selected one.
+SETPN penID - change the active pen of the turtle.
+SETPC penID colorID - change the color of the selected pen of the turtle.
+
+Commands can be combined freely.
+
+=== Procedures ===
+
+Procedures are collections of commands that you can invoke with their names. 
+Adding parameters is also available.
+
+==== Define ====
+
+Syntax looks like this:
+
+TO name parameters code END 
+
+Parameters represent numbers, each parameter name starts with ':'
+
+Examples:
+TO STAR REPEAT 5 [ FD 100 RT 144 ] END
+TO SQUARE :LENGTH REPEAT 4 [ FD :LENGTH RT 90 ] END
+
+==== Invoke ====
+
+To invoke the procedure, type its name and provide the required number of parameters.
+
+Example:
+STAR
+SQUARE 100
+
+==== Edit & View & Delete =====
+
+To remove all procedures, type:
+
+ERALL
+
+To view procedures memorized by the program, type:
+
+POTS
+
+To edit the procedure or procedures, type:
+
+ED procedureName
+or to select multiple:
+ED [ procedureName1 procedureName2 ...]
+
+e.g.:
+ED STAR
+ED [ STAR SQUARE ]
+
+The code of the procedure/procedures will appear in the input box.
+You can change it freely, as long the name remains unchanged.
+If the procedure name is changed, the code will be treated as an entirely new procedure.
+
+=== Save & Load ===
+
+You can save and load your procedures from a local file.
+
+Type:
+
+SAVE filePath - to save your procedures to a selected file.
+LOAD filePath - to load your procedures from a selected file.
+
+e.g.:
+SAVE C:\procedures.logo
+LOAD C:\procedures.logo
+
+	REMARKS:
+The file path cannot contain spaces
+(same as in the original Atari Logo implementation). 

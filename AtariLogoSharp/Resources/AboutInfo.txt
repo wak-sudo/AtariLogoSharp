@@ -1,0 +1,4 @@
+=== Atari Logo Interpreter ===
+
+Developed by 404 team for Motorola Science Cup 2021/2022. 
+Written by Wojciech Kieloch (wak-sudo) in C#.

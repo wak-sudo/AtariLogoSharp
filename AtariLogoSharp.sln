@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtariLogoSharp", "AtariLogoSharp\AtariLogoSharp.csproj", "{D1263291-B919-4A4E-9FC2-7DB37431C774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtariLogoSharp.Test", "AtariLogoSharp.Test\AtariLogoSharp.Test.csproj", "{F3F74A76-8678-4CBF-AE51-E23B1456547B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AtariLogoSharp.Setup", "AtariLogoSharp.Setup\AtariLogoSharp.Setup.vdproj", "{CA7D3192-2C89-4F24-AFED-646E0A845607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1263291-B919-4A4E-9FC2-7DB37431C774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1263291-B919-4A4E-9FC2-7DB37431C774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1263291-B919-4A4E-9FC2-7DB37431C774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1263291-B919-4A4E-9FC2-7DB37431C774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F74A76-8678-4CBF-AE51-E23B1456547B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F74A76-8678-4CBF-AE51-E23B1456547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F74A76-8678-4CBF-AE51-E23B1456547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F74A76-8678-4CBF-AE51-E23B1456547B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7D3192-2C89-4F24-AFED-646E0A845607}.Debug|Any CPU.ActiveCfg = Debug
+		{CA7D3192-2C89-4F24-AFED-646E0A845607}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B5E400-34DF-48D2-BE1F-7E727EC75E94}
+	EndGlobalSection
+EndGlobal
