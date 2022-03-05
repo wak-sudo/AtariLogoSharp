@@ -20,14 +20,15 @@ namespace AtariLogoSharp
         PRIMITIVE_REDEFINED,
         NO_PARAMETER_PROVIDED,
         PARAMETER_REPEATED,
-        NO_FILEPATH,
-        INVALID_FILE,
-        FAILED_SAVING,
-        FAILED_LOADING,
+        NO_FILEPATH,  
         COLOR_OUT_OF_RANGE,
         PEN_INDEX_OUT_OF_RANGE,
         PROCEDURE_IS_NOT_DEFINED,
-        POINTER_OUT_OF_RANGE, // Technial error.
+
+        INVALID_FILE,
+        FAILED_SAVING,
+        FAILED_LOADING,
+        POINTER_OUT_OF_RANGE, // Technial error, should not be visible for user,
     };
 
     public partial class Interpreter
@@ -47,15 +48,16 @@ namespace AtariLogoSharp
             {IRC.DECLARATION_WITHIN_PROCEDURE, "Declaration of procedure within procedure is not allowed, after: {0}" },
             {IRC.PRIMITIVE_REDEFINED, "Redefinition of primitive {0} is prohibited." },
             {IRC.NO_PARAMETER_PROVIDED, "There must be another numeric parameter provided after: {0}" },
-            {IRC.POINTER_OUT_OF_RANGE, "Interpreter error: code pointer out of range." },
             {IRC.PARAMETER_REPEATED, "There is a repeated parameter name after: {0}" },
             {IRC.NO_FILEPATH, "There must be a valid file path after: {0}" },
-            {IRC.INVALID_FILE, "File provided after {0} contains syntax errors." },
-            {IRC.FAILED_SAVING, "Saving of {0} failed, check accessibility of your file path." },
-            {IRC.FAILED_LOADING, "Cannot load {0}, check accessibility of your file." },
             {IRC.COLOR_OUT_OF_RANGE, "Color number after {0} must be in range of [0; 127]." },
             {IRC.PEN_INDEX_OUT_OF_RANGE, "Specified pen ID after {0} must be in range of [0; 2]." },
             {IRC.PROCEDURE_IS_NOT_DEFINED, "Procedure after {0} is not defined." },
+
+            {IRC.INVALID_FILE, "File provided after {0} contains syntax errors." },
+            {IRC.FAILED_SAVING, "Saving of {0} failed, check accessibility of your file path." },
+            {IRC.FAILED_LOADING, "Cannot load {0}, check accessibility of your file." },
+            {IRC.POINTER_OUT_OF_RANGE, "Interpreter error: code pointer out of range." },
         };
     }
 }
