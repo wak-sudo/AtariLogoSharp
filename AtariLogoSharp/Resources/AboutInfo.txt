@@ -2,4 +2,3 @@
 
 Implementation of Atari Logo in C#. 
 Developed by 404 Team for Motorola Science Cup 2021/2022. 
-Written by Wojciech Kieloch (wak-sudo).
