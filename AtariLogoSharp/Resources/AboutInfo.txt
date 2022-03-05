@@ -1,4 +1,5 @@
-=== Atari Logo Interpreter ===
+=== Atari Logo Sharp ===
 
-Developed by 404 team for Motorola Science Cup 2021/2022. 
-Written by Wojciech Kieloch (wak-sudo) in C#.
+Implementation of Atari Logo in C#. 
+Developed by 404 Team for Motorola Science Cup 2021/2022. 
+Written by Wojciech Kieloch (wak-sudo).

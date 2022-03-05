@@ -1,6 +1,6 @@
 == User Manual ==
 
-If you want to hide your input box, click on the draw screen.
+If you want to hide the input box, click on the draw screen.
 If you want to restore the input box, press Escape.
 
 === Basic commands ===
