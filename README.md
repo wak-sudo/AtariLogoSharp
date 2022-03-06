@@ -34,4 +34,8 @@ And place it in the "C:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrappe
 
 You are ready to build the setup project.
 
+## How to use ##
 
+The available Atari Logo language syntax is listed under Help -> Manual
+
+You can also read the user manual on the [Wiki](wiki/User-manual) page.
