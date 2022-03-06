@@ -27,4 +27,11 @@ Roadmap:
 5. Select and download.
 6. Follow given steps.
 
-After installing the extension, you can build the Setup project.
+After installing the extension, download NDP48-x86-x64-AllOS-ENU.exe:
+https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer
+
+And place it in the "C:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX48" directory.
+
+You are ready to build the setup project.
+
+
