@@ -27,8 +27,7 @@ Roadmap:
 5. Select and download.
 6. Follow given steps.
 
-After installing the extension, download NDP48-x86-x64-AllOS-ENU.exe:
-https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer
+After installing the extension, download [NDP48-x86-x64-AllOS-ENU.exe](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer).
 
 And place it in the "C:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX48" directory.
 
@@ -36,6 +35,6 @@ You are ready to build the setup project.
 
 ## How to use ##
 
-The available Atari Logo language syntax is listed under Help -> Manual
+The available Atari Logo language syntax is listed in the application under Help -> Manual
 
-You can also read the user manual on the [Wiki](wiki/User-manual) page.
+You can also read the user manual on the [Wiki](https://github.com/wak-sudo/AtariLogoSharp/wiki/User-manual) page.
