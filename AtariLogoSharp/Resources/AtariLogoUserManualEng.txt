@@ -3,6 +3,8 @@
 If you want to hide the input box, click on the draw screen.
 If you want to restore the input box, press Escape.
 
+Commands can be combined freely. 
+
 === Basic commands ===
 
 CS - remove drawings / clean up the board.
@@ -20,7 +22,7 @@ e.g. REPEAT 4 [FD 50 LT 90] draws a square.
 
 === Turtles commands ===
 
-TELL turtleID - or to select multiple - TELL [ turtleID1 turtleID2, ...]
+TELL turtleID - or to select multiple - TELL [ turtleID1 turtleID2 ...]
 - a new turtle appears (the first one has index 0), 
 all commands appearing after the TELL command apply to the called turtle until the next TELL call.
 e.g. TELL [ 0 1 ]
@@ -39,8 +41,6 @@ There are 128 colors available from the Atari pallet (numbered from 0 to 127).
 SETC colorID - change the color of the current turtle to the selected one.
 SETPN penID - change the active pen of the turtle.
 SETPC penID colorID - change the color of the selected pen of the turtle.
-
-Commands can be combined freely.
 
 === Procedures ===
 
