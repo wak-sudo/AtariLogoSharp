@@ -257,7 +257,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Atari Logo Sharp"
         "ProductCode" = "8:{72478B07-72A7-41BF-B371-AEB3E41D3CBC}"
-        "PackageCode" = "8:{244FD2CE-DE5B-493D-8373-92B63BB465E5}"
+        "PackageCode" = "8:{054E0C85-ABC6-4FFD-ABC8-AD290A5D0D1B}"
         "UpgradeCode" = "8:{2B0FEB87-1465-4A25-B0EC-0A67FD8FAF54}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
