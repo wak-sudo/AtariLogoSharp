@@ -58,7 +58,7 @@ Parameters represent numbers, each parameter name starts with ':'
 Examples:
 TO STAR REPEAT 5 [ FD 100 RT 144 ] END
 TO SQUARE :LENGTH REPEAT 4 [ FD :LENGTH RT 90 ] END
-TO HYPOTROCHOID REPEAT 20 [ REPEAT 180 [ FD 1 RT 2] RT 18] HT
+TO HYPOTROCHOID REPEAT 20 [ REPEAT 180 [ FD 1 RT 2] RT 18] HT END
 
 ==== Invoke ====
 
