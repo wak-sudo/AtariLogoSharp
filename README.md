@@ -1,4 +1,7 @@
 # AtariLogoSharp
+
+![Screenshot](Screenshots/AtariLogoSharpScreen.png)
+
  Implementation of Atari Logo in C#. Written for Motorola Science Cup 2021/2022 by 404 Team.
  
 ## System Requirements ##
